@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<package format="2">
+<package format="3">
   <name>gs_mapping</name>
   <version>0.0.0</version>
   <description>The gs_mapping package</description>
@@ -7,17 +7,16 @@
   <maintainer email="yuhanxie@connect.hku.hk">YuhanXie</maintainer>
   <license>GPLv3</license>
 
-  <buildtool_depend>catkin</buildtool_depend>
-  <build_depend>rospy</build_depend>
+  <build_depend>rclpy</build_depend>
   <build_depend>std_msgs</build_depend>
 
-  <build_export_depend>rospy</build_export_depend>
+  <build_export_depend>rclpy</build_export_depend>
   <build_export_depend>std_msgs</build_export_depend>
 
-  <exec_depend>rospy</exec_depend>
+  <exec_depend>rclpy</exec_depend>
   <exec_depend>std_msgs</exec_depend>
 
   <export>
-
+  <build_type>ament_python</build_type>
   </export>
 </package>
